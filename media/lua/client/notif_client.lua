@@ -57,7 +57,7 @@ function requestGladiatorList()
     sendClientCommand("ZMNotif", "getGladiatorList", {})
 end
 
-function requestGladiator()
+function resetGladiator()
     sendClientCommand("ZMNotif", "resetGladiator", {})
 end
 
